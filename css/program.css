@@ -1,0 +1,58 @@
+  .card1 {
+      position: relative;
+      width: 400px;
+      height: 200px;
+      border-radius: 10px;
+      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+      transition: 0.3s;
+      padding: 30px 50px;
+      background-color: rgba(214, 221, 199, 0.84);
+      ;
+      cursor: pointer;
+      margin-right: 60px;
+  }
+
+  .card1:hover {
+      height: 400px;
+  }
+
+  .imgbox {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transform: translateY(-80px);
+      z-index: 99;
+  }
+
+  .img {
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+
+  }
+
+  .content {
+      padding: 10px 20px;
+      text-align: center;
+      transform: translateX(2500px);
+      opacity: 0;
+      transition: 1s;
+  }
+
+  .card1:hover>.content {
+      opacity: 1;
+      transform: translateY(-220px);
+  }
+
+  .pro {
+      margin-top: 5rem;
+  }
+
+  .col-md-4 {
+      transition: 1s;
+  }
+
+  .col-md-4:hover {
+      transform: scale(1.1);
+      z-index: 2;
+  }

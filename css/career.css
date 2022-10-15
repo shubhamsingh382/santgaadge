@@ -1,0 +1,25 @@
+.col-md-4 {
+    transition: 1s;
+}
+
+.col-md-4:hover {
+    transform:rotate3d(1,1,1,360deg);
+    z-index: 2;
+}
+.hh{
+    float: left;
+}
+.head h1{
+    font-size: 3rem;
+}
+.head p{
+    font-size: 1rem;
+    margin-left: -18rem;
+}
+.m{
+    margin-left: 13rem;
+    
+}
+.se{
+    float: right;
+}

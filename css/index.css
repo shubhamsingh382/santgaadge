@@ -1,0 +1,81 @@
+ 
+body{
+    background-color:  white;
+    
+}
+.logo{
+    border-radius: 50%;
+}
+.navbar{
+    margin-top: 0px;
+}
+ .re{
+    font-weight: bold;
+ }
+ 
+h4{
+    display: flex;
+    justify-content: center;
+    background-color: lightseagreen;
+    
+}
+div ul li{
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+    color: aliceblue;
+    margin-bottom: 0px;
+    
+
+}
+div ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+}
+ .nav-itme{
+    color: rgb(240,234,234);
+ }
+ 
+.carousel{
+    margin-top: 0rem;
+}
+ 
+   .salutation h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-bottom: 0;
+    padding: 0;
+    text-transform: uppercase;
+   }
+   .container-md{
+    margin-top: 4rem;
+    border-top: solid;
+    border-bottom: solid;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+}
+ .map h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+    margin-bottom: 1rem;
+    padding: 0;
+    text-transform: uppercase;
+ }
+ .footer{
+    background-color: rgb(163, 162, 146) ;
+ }
+ .ins{
+    background-color: rgba(213, 212, 194, 0.866);
+ }
+ .cont{
+    background-color: rgba(213, 212, 194, 0.866);
+   
+ }
